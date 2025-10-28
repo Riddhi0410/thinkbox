@@ -9,7 +9,7 @@ import Signup from './pages/Signup';
 const App = () => {
   return (
     <div className='relative h-full w-full'>
-      <div className='absolute inset-0 -z-10 h-full w-full px-5 py-24 bg-[radial-gradient(125%_125%_at_50%_10%,_#000_60%,_#3b237d_100%)]' />
+      <div className='absolute inset-0 -z-10 h-screen w-full px-5 py-24 bg-[radial-gradient(125%_125%_at_50%_10%,_#000_60%,_#3b237d_100%)]' />
 
       <Routes>
         <Route path='/login' element={<Login />} />
